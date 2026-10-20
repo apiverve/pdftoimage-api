@@ -1,0 +1,29 @@
+[project]
+name = "apiverve-pdftoimage"
+version = "1.2.2"
+authors = [
+  { name="APIVerve", email="hello@apiverve.com" },
+]
+description = "PDF to Image renders the pages you choose from a PDF, uploaded or fetched from a URL, as PNG or JPG images and returns a download link for each, valid for 2 days, with its pixel size. The Free plan renders one page per call at 150 dpi; paid plans render up to 10 pages per call and can set the resolution from 72 to 300 dpi."
+keywords = ["pdf to image api", "pdf to png api", "pdf to jpg api", "convert pdf to image", "render pdf pages api"]
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "requests>=2.25.0"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+]
+
+[project.urls]
+Homepage = "https://apiverve.com/marketplace/pdftoimage?utm_source=pypi&utm_medium=referral&utm_content=homepage"
+Documentation = "https://docs.apiverve.com/ref/pdftoimage?utm_source=pypi&utm_medium=referral&utm_content=docs"
+Repository = "https://github.com/apiverve/pdftoimage-api"
+Twitter = "https://twitter.com/apivervehq"
